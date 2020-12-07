@@ -1,29 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
+    <script
+      src="https://kit.fontawesome.com/48317ace59.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Name Generator</title>
   </head>
-  <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+  <body
+    style="background-image: linear-gradient(to right, rgb(220,53,69), white, white, rgb(220,53,69));"
+  >
+    <div class="text-center bg-danger">
+      <h1>The Domain Name Generator</h1>
     </div>
+    <br />
+    <div class="text-center">
+      <i class="fas fa-arrow-right"></i>
+      <button type="button" class="btn btn-danger">
+        Click here!
+      </button>
+      <i class="fas fa-arrow-left"></i>
+    </div>
+    <br />
+    <h2 class="text-center" style="text-decoration:underline;">
+      List of Domains:
+    </h2>
+    <div
+      class="domain text-center"
+      style="list-style-type:none; font-weight:bold; font-size: 25px; text-shadow: 2px 2px 5px red;"
+    ></div>
+    <script src="main.js"></script>
   </body>
 </html>
